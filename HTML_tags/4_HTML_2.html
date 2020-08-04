@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Part-2</title>
+  </head>
+  <body>
+    <!-- Making a1n Orderd List -->
+    <h4><u>This is an Orderd List</u></h4>
+    <ol>
+      <li>Item - 1</li>
+      <li>Item - 2</li>
+      <li>Item - 3</li>
+      <li>Item - 4</li>
+    </ol>
+
+    <!-- Making an Unorder List -->
+    <h4><u>This is an Unorder List</u></h4>
+    <ul>
+      <li>Item - 1</li>
+      <li>Item - 2</li>
+      <li>Item - 3</li>
+      <li>Item - 4</li>
+    </ul>
+
+    <!-- Assign an ID to the Tag -->
+    <!-- Any tag takes only one unique ID and can't be dublicated or used somewhere else -->
+    <p id="paragraph-1">This paragraph has an id="paragraph-1"</p>
+
+    <!-- Assign a CLASS to the Tag -->
+    <!-- Any tag takes many classes and can be reused and duplicated -->
+    <p class="first-parag" class="main-parag">
+      This paragraph has two classes: class="first-parag" and class="main-parag"
+    </p>
+
+    <!-- Container -->
+    <!-- div tag is used as a container or wrapper -->
+    <div>
+      <h4>This is a text wrapped in a container [div tag]</h4>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad sapiente ipsum, in sit neque, asperiores corrupti eos saepe blanditiis voluptas odio cum consectetur accusantium perspiciatis. Quae placeat voluptatibus explicabo!
+    </div>
+
+    <hr />
+    <!-- HTML5 Semantic Tags  -->
+    <!--
+      <header></header>
+      <nav></nav>
+        <main>
+          <section>
+            <article>
+              <div></div>
+            </article>
+          </section>
+        </main>
+      <aside></aside>
+      <footer></footer>
+    -->
+
+    <!-- Simple Header -->
+    <header id="header" class="card">
+      <center><u>HTML5 Semantic Tags </u> - <small>Simple Header</small></center>
+    </header>
+
+    <!-- Simple Nav-bar -->
+    <small>Simple Nav-Bar</small>
+    <ul id="nav-bar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- Main Content -->
+    <main id="main">
+      <!-- section-1 -->
+      <section id="welcome" class="card" class="section-1">
+        <small>This is section 1</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cum, explicabo molestias laboriosam
+          accusamus numquam in illum quae impedit porro at quisquam eum natus dolorem totam aliquid voluptatum sit
+          aliquam.
+        </p>
+      </section>
+
+      <!-- section-2 -->
+      <section class="section-2">
+        <small>This is section 2</small>
+
+        <!-- Artical-1 -->
+        <article class="artical-1">
+          <br>
+          <small>Artical-1</small>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cum, explicabo molestias laboriosam
+            accusamus numquam in illum quae impedit porro at quisquam eum natus dolorem totam aliquid voluptatum sit
+            aliquam.
+          </p>
+        </article>
+
+        <!-- Artical-2 -->
+        <article class="artical-2">
+          <small>Artical-1</small>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cum, explicabo molestias laboriosam
+            accusamus numquam in illum quae impedit porro at quisquam eum natus dolorem totam aliquid voluptatum sit
+            aliquam.
+          </p>
+        </article>
+      </section>
+
+      <!-- Aside - Navigation -->
+      <aside id="sidebar" class="card">
+        <small>Navigation</small>
+        <nav>
+          <ul id="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p> Copyright &copy; 2020 made with &hearts; by Tito &reg;</p>
+    </footer id="footer">
+  </body>
+</html>
